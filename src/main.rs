@@ -1,5 +1,6 @@
 mod error_handling;
+mod iterator;
 
 fn main() {
-    println!("Hello, world!");
+    iterator::run();
 }
