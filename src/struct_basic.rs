@@ -79,6 +79,16 @@ impl<'a> Member<'a> {
             email,
         }
     }
+
+    #[allow(dead_code)]
+    fn get_name(&self) -> &str {
+        self.name
+    }
+
+    #[allow(dead_code)]
+    fn set_name(&mut self, name: &'a str) {
+        self.name = name;
+    }
 }
 
 // タプル型構造体
